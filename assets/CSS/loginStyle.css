@@ -1,0 +1,52 @@
+*{
+
+  box-sizing: border-box;
+  font-family: Poppins,sans-serif;
+}
+
+form{
+  margin: 20px;
+position: fixed;
+top:16%;
+left:30%;
+  width:500px;
+  height:400px;
+  background: #2A6BA1;
+  display: block;
+  overflow: hidden;
+
+}
+
+form .input-group{
+  position: relative;
+  top:30px;
+  left:20%;
+  display: flex;
+justify-content: center;
+align-items: center;
+width:300px;
+padding-bottom: 14px;
+
+}
+form .input-group input{
+
+border-radius: 8px;
+
+}
+form .input-group label{
+
+position: relative;
+left:35%;
+font-weight: bold;
+width:100%;
+text-transform: uppercase;
+}
+
+form .input-group input[type="submit"]
+{
+margin-top: 14px;
+  width:70px;
+  height:50px;
+
+  font-size: 10px;
+}
